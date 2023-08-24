@@ -1,0 +1,108 @@
+*{
+   margin : 0;
+   padding:0;
+
+}
+body{
+    background-image: url("img.jpg");
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: 100%;
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+    text-align: center;
+
+    
+    height: 91.2vh;
+
+    box-sizing: border-box;
+    background-position: center;
+    position: relative;
+}
+button{
+    text-transform: capitalize;
+    background-color: rgb(128, 0, 53);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+a:hover{
+    background-color: red;
+    padding: 10px;
+    color: white !important;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+button:hover
+{
+    background-color: rgb(235, 135, 168);
+    color: rgb(92, 0, 128);
+    cursor: pointer;
+}
+h1{
+    text-transform: capitalize;
+    margin: 50px;
+    font-size: 50px;
+
+}
+.top{
+    list-style: none;
+    display: inline-flex;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:end;
+
+}
+.top a{
+
+    text-decoration: underline;
+    font-size: 3vmin;
+    font-weight: 900;
+    font-family: 'Almendra', serif;
+    font-family: 'Lugrasimo', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+       margin: 10px 10px 10px 10px;
+
+}
+ h2{ 
+    color: rgb(255, 230, 0);
+    padding: 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+   font-size: 30px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    border-radius: 10px;
+    text-shadow: 30px;
+    
+}  
+h2:hover{
+    cursor:grabbing;
+    color:aqua;
+    font-style: italic;
+
+}
